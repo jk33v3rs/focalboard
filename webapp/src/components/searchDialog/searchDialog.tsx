@@ -115,6 +115,7 @@ const SearchDialog = (props: Props): JSX.Element => {
                     <div className='queryWrapper'>
                         <Search/>
                         <input
+                            dir='auto'
                             className='searchQuery'
                             placeholder='Search for boards'
                             type='text'
