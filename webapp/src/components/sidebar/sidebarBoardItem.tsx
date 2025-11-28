@@ -214,6 +214,7 @@ const SidebarBoardItem = (props: Props) => {
                             {board.icon || <CompassIcon icon='product-boards'/>}
                         </div>
                         <div
+                            dir='auto'
                             className='octo-sidebar-title'
                             title={title}
                         >
